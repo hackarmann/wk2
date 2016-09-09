@@ -1,0 +1,30 @@
+.slideToLeft {
+    transform: translateX(0);
+    transition: transform 1s;
+
+}
+.slideImage {
+    position: absolute;
+    width: 100%;
+
+}
+.getInLine {
+    transform: translateX(100%);
+    transition: transform 0s;
+}
+
+.slideAllTheWay {
+    transform: translateX(-100%);
+    transition-duration: 1s;
+}
+/*.slider {
+    height: 600px;
+    width: 100%;
+}
+
+.slider .slideImage {
+    display: none;
+}
+.slider .slideImage.active {
+    display: block;
+}*/
