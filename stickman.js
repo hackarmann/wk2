@@ -1,0 +1,16 @@
+var c=document.getElementById("canv");
+var ctx=c.getContext("2d");
+ctx.beginPath();
+ctx.arc(100,10,10,0,2*Math.PI);
+ctx.strokeStyle = '#900';
+ctx.moveTo(100, 20);
+ctx.lineTo(100, 60);
+ctx.moveTo(100, 40);
+ctx.lineTo(120, 30);
+ctx.moveTo(100, 40);
+ctx.lineTo(80, 30);
+ctx.moveTo(100, 60);
+ctx.lineTo(120, 80);
+ctx.moveTo(100, 60);
+ctx.lineTo(80, 80);
+ctx.stroke();
