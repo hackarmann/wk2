@@ -1,0 +1,82 @@
+.slider {
+    position: relative;
+    width:100%;
+    height:600px;
+
+
+}
+#fit {
+
+height: 500px;
+object-fit: fill;
+}
+
+.slideToLeft {
+    transform: translateX(0);
+    transition: transform 1s;
+
+}
+.slideImage {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.getInLine {
+    transform: translateX(100%);
+    transition: transform 0s;
+}
+
+.slideAllTheWay {
+    transform: translateX(-100%);
+    transition-duration: 1s;
+}
+ .dot {
+
+
+    border-radius: 50%;
+	width: 40px;
+	height: 40px;
+    /*background-color: black;*/
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    top: 450px;
+    z-index: 1000;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+.dot1 {
+    margin: 100px;
+}
+body {
+    margin: 0px;
+}
+.allDots {
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+
+}
+.carroussel {
+    position: relative;
+}
+.theChosenOne {
+    background-color: white;
+}
+
+
+/*.slider {
+    height: 600px;
+    width: 100%;
+}
+
+.slider .slideImage {
+    display: none;
+}
+.slider .slideImage.active {
+    display: block;
+}*/
